@@ -16,3 +16,11 @@ variable "user1" {
 output "username" {
     value = var.user1
 }
+
+variable "mytest" {
+    type = string
+  
+}
+output "mytest" {
+    value = var.mytest
+}
