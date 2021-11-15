@@ -1,7 +1,7 @@
 terraform {
   backend "remote" {
     hostname = "app.terraform.io"
-    organization = "tfcore"
+    organization = "stamp-test"
 
     workspaces {
       name = "my-workspace"
