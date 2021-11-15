@@ -4,7 +4,7 @@ terraform {
     organization = "stamp-test"
 
     workspaces {
-      name = "my-workspace"
+      name = "tf-test"
     }
   }
 }
