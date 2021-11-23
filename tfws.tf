@@ -1,6 +1,6 @@
 resource "tfe_workspace" "myworkspace" {
   name              = "myworkspace"
-  organization      = "stamps-test"
+  organization      = "stamp-test"
   execution_mode    = "remote"
   working_directory = ""
   auto_apply        = "false"
