@@ -1,4 +1,4 @@
-resource "tfe_workspace" "myworkspace" {
+resource "tfe_workspace" "myworkspace1121" {
   name              = "myworkspace1121"
   organization      = "stamp-test"
   execution_mode    = "remote"
