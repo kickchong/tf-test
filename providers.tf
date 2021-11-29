@@ -4,9 +4,19 @@ terraform {
       source  = "hashicorp/aws"
       version = "3.64.2"
     }
+    
     tfe = {
       source  = "hashicorp/tfe"
       version = "0.26.1"
+    }
+  }
+  
+  backend "remote" {
+    hostname      = "app.terraform.io"
+    organization  = "stamp-test"
+
+    workspaces {
+      name = "tf-test"
     }
   }
 }
