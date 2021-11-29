@@ -1,7 +1,7 @@
 resource "tfe_workspace" "workspace1121" {
   name            = "workspace1121"
   organization    = "stamp-test"
-  execution_mode  = "remote"
+  #execution_mode  = "remote"
 }
 
 # resource "tfe_workspace" "myworkspace" {
