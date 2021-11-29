@@ -1,7 +1,7 @@
-resource "tfe_workspace" "workspace1121" {
-  name            = "workspace1121"
+resource "tfe_workspace" "workspace" {
+  name            = "workspace"
   organization    = "stamp-test"
-  execution_mode  = "local"
+  execution_mode  = "remote"
 }
 
 # resource "tfe_workspace" "myworkspace" {
