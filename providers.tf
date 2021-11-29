@@ -15,10 +15,14 @@ terraform {
     hostname      = "app.terraform.io"
     organization  = "stamp-test"
 
-    workspaces {
-      name = "tf-test"
-    }
+    # workspaces {
+    #   name = "tf-test"
+    # }
   }
+}
+
+provider "tfe" {
+
 }
 
 
