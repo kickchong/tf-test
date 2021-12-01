@@ -1,6 +1,6 @@
 resource "tfe_workspace" "workspace" {
   name            = "workspace"
-  organization    = "stamps-test"
+  organization    = "stamp-test"
   execution_mode  = "remote"
 }
 
