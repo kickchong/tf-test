@@ -41,6 +41,7 @@ provider "aws" {
     alias   = "us-east"
 }
 
+/*
 variable "githubtoken" {
     type = string
 }
@@ -48,10 +49,9 @@ variable "githubtoken" {
 provider "github" {
   token = var.githubtoken
 }
+*/
 
-/*
 resource "github_branch" "dev" {
   repository = "tf-test"
   branch     = "dev"
 }
-*/
