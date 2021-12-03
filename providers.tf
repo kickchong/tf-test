@@ -10,7 +10,14 @@ terraform {
       version = "0.26.1"
     }
   }
-  
+  required_providers {
+    github = {
+      source = "integrations/github"
+      version = "4.18.2"
+    }
+  }
+
+
   backend "remote" {
     hostname      = "app.terraform.io"
     organization  = "stamp-test"
@@ -34,4 +41,12 @@ provider "aws" {
 provider "aws" {
     region  = "us-east-1"
     alias   = "us-east"
+}
+
+provider "github" {
+  token = "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"
+}
+resource "github_branch" "dev" {
+  repository = "kickchong/tf-test"
+  branch     = "dev"
 }
