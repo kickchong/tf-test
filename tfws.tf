@@ -1,6 +1,4 @@
-variable "GITHUB_TOKEN" {
-  type = string
-}
+
 
 resource "tfe_workspace" "workspace" {
   name            = "workspace"
