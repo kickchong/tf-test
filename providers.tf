@@ -41,12 +41,12 @@ provider "aws" {
     alias   = "us-east"
 }
 
-variable "GITHUB_TOKEN" {
+variable "githubtoken" {
     type = string
 }
 
 provider "github" {
-  token = var.GITHUB_TOKEN
+  token = var.githubtoken
 }
 
 
