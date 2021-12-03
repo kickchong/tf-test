@@ -42,13 +42,13 @@ provider "aws" {
 }
 
 variable "GITHUB_TOKEN" {
-  type = string
+    type = string
 }
-/*
+
 provider "github" {
   token = var.GITHUB_TOKEN
 }
-*/
+
 
 output "test1" {
   value = var.GITHUB_TOKEN
