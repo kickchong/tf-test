@@ -51,6 +51,6 @@ provider "github" {
 
 
 resource "github_branch" "dev" {
-  repository = "kickchong/tf-test"
+  repository = "tf-test"
   branch     = "dev"
 }
