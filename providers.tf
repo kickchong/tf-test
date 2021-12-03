@@ -42,8 +42,9 @@ provider "aws" {
 }
 
 provider "github" {
-  token = "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"
+  token = "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"
 }
+
 resource "github_branch" "dev" {
   repository = "kickchong/tf-test"
   branch     = "dev"
