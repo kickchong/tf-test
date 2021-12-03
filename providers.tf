@@ -42,7 +42,7 @@ provider "aws" {
 }
 
 provider "github" {
-  token = "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"
+  token = var.GITHUB_TOKEN
 }
 
 resource "github_branch" "dev" {
