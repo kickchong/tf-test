@@ -42,7 +42,7 @@ provider "aws" {
 }
 
 provider "github" {
-  token = "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"
+  token = "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"
 }
 
 resource "github_branch" "dev" {
