@@ -50,10 +50,6 @@ provider "github" {
 }
 
 
-output "test1" {
-  value = var.GITHUB_TOKEN
-}
-
 resource "github_branch" "dev" {
   repository = "kickchong/tf-test"
   branch     = "dev"
