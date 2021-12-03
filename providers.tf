@@ -9,11 +9,11 @@ terraform {
       source  = "hashicorp/tfe"
       version = "0.26.1"
     }
-  }
 
     github = {
       source = "integrations/github"
       version = "4.18.2"
+    }
   }
 
   backend "remote" {
